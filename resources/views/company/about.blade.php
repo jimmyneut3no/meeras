@@ -78,8 +78,8 @@
                     <div class="dlab-media">
                         <img src="{{ asset('images/about/safety.webp') }}" alt="Safety">
                     </div>
-                    <div class="dlab-info">
-                        <h4 class="dlab-title text-center">Safety First</h4>
+                    <div class="dlab-infoe text-center">
+                        <h4 class="dlab-titl">Safety First</h4>
                         <p>Uncompromising commitment to the safety of our people, facilities, and communities</p>
                     </div>
                 </div>
@@ -89,8 +89,8 @@
                     <div class="dlab-media">
                         <img src="{{ asset('images/about/exellence.webp') }}" alt="Excellence">
                     </div>
-                    <div class="dlab-info">
-                        <h4 class="dlab-title text-center">Excellence</h4>
+                    <div class="dlab-info text-center">
+                        <h4 class="dlab-title">Excellence</h4>
                         <p>Pursuit of operational excellence and continuous improvement in everything we do</p>
                     </div>
                 </div>
@@ -100,8 +100,8 @@
                     <div class="dlab-media">
                         <img src="{{ asset('images/about/innovation.webp') }}" alt="Innovation">
                     </div>
-                    <div class="dlab-info">
-                        <h4 class="dlab-title text-center">Innovation</h4>
+                    <div class="dlab-info text-center">
+                        <h4 class="dlab-title">Innovation</h4>
                         <p>Embracing new technologies and creative solutions to drive progress</p>
                     </div>
                 </div>

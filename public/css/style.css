@@ -271,7 +271,7 @@ h4,
 h5,
 h6 {
     color: #232323;
-    font-family: "Poppins",sans-serif;
+    font-family: "Titillium Web",sans-serif;
 }
 h1 a,
 h2 a,
@@ -8251,6 +8251,7 @@ a,
 .list-star li {
     padding: 5px 5px 5px 30px;
     position: relative;
+    color: var(--color-primary);
 }
 .list-circle li:before,
 .list-angle-right li:before,
@@ -8270,7 +8271,7 @@ a,
     top: 5px;
     display: block;
     font-size: 15px;
-    color: #777;
+    color: var(--color-primary);
 }
 ul[class*="list-"]{
 	font-size:15px;

@@ -158,9 +158,9 @@
 							<p>Meeras Refinery is a leading energy company in Kazakhstan, committed to sustainable development and excellence in oil refining. Our state-of-the-art facility in Atyrau serves as a key player in Central Asia's energy sector.</p>
 							<div class="widget widget_getintuch">
 								<ul>
-									<li><i class="ti-location-pin"></i>123 Energy Street, Atyrau, Kazakhstan</li>
+									<li><i class="ti-location-pin"></i>Baqtygerey Qulmanov St 107, Atyrau, Kazakhstan</li>
 									<li><i class="ti-mobile"></i> <a href="tel:+7712XXXXXXX">+7 (712) XXX-XXXX</a>(24/7 Support Line)</li>
-									<li><i class="ti-email"></i> <a href="mailto:info@meeras.kz">info@meerasrefinery.kz</a></li>
+									<li><i class="ti-email"></i> <a href="mailto:info@meerasrefinery.kz">info@meerasrefinery.kz</a></li>
 								</ul>
 							</div>
 							<ul class="list-inline m-a0">

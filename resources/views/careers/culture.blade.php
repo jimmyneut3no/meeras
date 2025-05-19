@@ -3,24 +3,12 @@
 @section('title', 'Our Culture - Meeras Refinery')
 
 @section('content')
-<!-- Page Banner -->
-<div class="page-banner-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="page-banner-content">
-                    <h1>Our Culture</h1>
-                    <ul class="breadcrumb">
-                        <li><a href="{{ route('home') }}">Home</a></li>
-                        <li>Careers</li>
-                        <li>Culture</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
+<x-breadcrumb
+    title="Culture"
+    parentpage="Careers"
+    subtitle="Our Culture"
+    :background="asset('images/banner/work.webp')"
+/>
 <!-- Culture Overview -->
 <div class="content-inner">
     <div class="container">

@@ -3,24 +3,12 @@
 @section('title', 'Investor Presentations - Meeras Refinery')
 
 @section('content')
-<!-- Page Banner -->
-<div class="page-banner-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="page-banner-content">
-                    <h1>Investor Presentations</h1>
-                    <ul class="breadcrumb">
-                        <li><a href="{{ route('home') }}">Home</a></li>
-                        <li>Investors</li>
-                        <li>Presentations</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
+<x-breadcrumb
+    title="Presentations"
+    parentpage="Investors"
+    subtitle="Investor Presentations"
+    {{-- :background="asset('images/banner/work.webp')" --}}
+/>
 <!-- Presentations Overview -->
 <div class="content-inner">
     <div class="container">

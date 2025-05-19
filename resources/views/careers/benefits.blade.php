@@ -4,23 +4,12 @@
 
 @section('content')
 <!-- Page Banner -->
-<div class="page-banner-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="page-banner-content">
-                    <h1>Employee Benefits</h1>
-                    <ul class="breadcrumb">
-                        <li><a href="{{ route('home') }}">Home</a></li>
-                        <li>Careers</li>
-                        <li>Benefits</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
+<x-breadcrumb
+    title="Benefits"
+    parentpage="Careers"
+    subtitle="Employee Benefits"
+    :background="asset('images/banner/work.webp')"
+/>
 <!-- Benefits Overview -->
 <div class="content-inner">
     <div class="container">

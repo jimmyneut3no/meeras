@@ -22,7 +22,7 @@
                     <div class="col-sm-6 m-b30">
                         <div class="icon-bx-wraper style-1">
                             <div class="icon-bx">
-                                <span class="icon-cell"><i class="flaticon-eco-energy"></i></span>
+                       <img src="{{asset('/images/mycollection/png/018-co2.png')}}" width="50px">   
                             </div>
                             <div class="icon-content">
                                 <h5 class="dlab-tilte">Carbon Reduction</h5>
@@ -33,7 +33,7 @@
                     <div class="col-sm-6 m-b30">
                         <div class="icon-bx-wraper style-1">
                             <div class="icon-bx">
-                                <span class="icon-cell"><i class="flaticon-factory"></i></span>
+                       <img src="{{asset('/images/mycollection/png/017-water-conservation.png')}}" width="50px">   
                             </div>
                             <div class="icon-content">
                                 <h5 class="dlab-tilte">Water Conservation</h5>
@@ -45,7 +45,7 @@
             </div>
             <div class="col-lg-6 m-b30">
                 <div class="dlab-media">
-                    <img src="{{ asset('template/images/our-work/oilgas/pic72.jpg') }}" alt="Environmental Initiatives">
+                    <img src="{{ asset('images/banner/hero-sustain.webp') }}" alt="Environmental Initiatives">
                 </div>
             </div>
         </div>
@@ -62,9 +62,7 @@
         <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
                 <div class="dlab-box">
-                    <div class="dlab-media">
-                        <img src="{{ asset('template/images/our-work/oilgas/pic73.jpg') }}" alt="Energy Efficiency">
-                    </div>
+                       <img src="{{asset('/images/mycollection/png/002-renewable-energy.png')}}" width="50px">   
                     <div class="dlab-info">
                         <h4 class="dlab-title">Energy Efficiency</h4>
                         <p>Implementing advanced technologies and processes to optimize energy consumption and reduce emissions.</p>
@@ -73,9 +71,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
                 <div class="dlab-box">
-                    <div class="dlab-media">
-                        <img src="{{ asset('template/images/our-work/oilgas/pic74.jpg') }}" alt="Renewable Energy">
-                    </div>
+                       <img src="{{asset('/images/mycollection/png/003-renewable-energy-1.png')}}" width="50px">   
                     <div class="dlab-info">
                         <h4 class="dlab-title">Renewable Energy</h4>
                         <p>Investing in solar and wind power projects to reduce reliance on fossil fuels.</p>
@@ -84,9 +80,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
                 <div class="dlab-box">
-                    <div class="dlab-media">
-                        <img src="{{ asset('template/images/our-work/oilgas/pic75.jpg') }}" alt="Carbon Capture">
-                    </div>
+                       <img src="{{asset('/images/mycollection/png/009-carbon-capture.png')}}" width="50px">   
                     <div class="dlab-info">
                         <h4 class="dlab-title">Carbon Capture</h4>
                         <p>Developing and implementing carbon capture and storage technologies.</p>
@@ -100,52 +94,37 @@
 <!-- Water Management -->
 <div class="content-inner">
     <div class="container">
-        <div class="section-head text-center">
-            <h2 class="title">Water Management</h2>
-            <p>Protecting and conserving water resources</p>
-        </div>
+
         <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-6 m-b30">
+            <div class="col-lg-6 col-md-6 col-sm-6 m-b30">
                 <div class="dlab-box">
                     <div class="dlab-media">
-                        <img src="{{ asset('template/images/our-work/oilgas/pic76.jpg') }}" alt="Water Conservation">
-                    </div>
-                    <div class="dlab-info">
-                        <h4 class="dlab-title">Water Conservation</h4>
-                        <p>Implementing water-saving technologies and practices</p>
+                        <img src="{{ asset('images/banner/water-purify.webp') }}" alt="Water Conservation">
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 m-b30">
-                <div class="dlab-box">
-                    <div class="dlab-media">
-                        <img src="{{ asset('template/images/our-work/oilgas/pic77.jpg') }}" alt="Water Treatment">
-                    </div>
-                    <div class="dlab-info">
-                        <h4 class="dlab-title">Water Treatment</h4>
-                        <p>Advanced treatment systems for process water</p>
-                    </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 m-b30">
+                <div class="section-head mb-1">
+                    <h2 class="title mb-0">Water Management</h2>
+                    <p class="p-0 mb-0">Protecting and conserving water resources</p>
+                    <hr>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 m-b30">
                 <div class="dlab-box">
-                    <div class="dlab-media">
-                        <img src="{{ asset('template/images/our-work/oilgas/pic78.jpg') }}" alt="Recycling">
+                    <div class="dlab-info mb-2">
+                        <h6 class="dlab-title mb-0 text-primary"><i class="la la-check-circle"></i> Water Conservation</h6>
+                        <p style="margin-left:20px">Implementing water-saving technologies and practices</p>
                     </div>
-                    <div class="dlab-info">
-                        <h4 class="dlab-title">Water Recycling</h4>
-                        <p>Closed-loop systems for water reuse</p>
+                    <div class="dlab-info mb-2">
+                        <h6 class="dlab-title mb-0 text-primary"><i class="la la-check-circle"></i> Water Treatment</h6>
+                        <p style="margin-left:20px">Advanced treatment systems for process water</p>
                     </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 m-b30">
-                <div class="dlab-box">
-                    <div class="dlab-media">
-                        <img src="{{ asset('template/images/our-work/oilgas/pic79.jpg') }}" alt="Monitoring">
+                    <div class="dlab-info mb-2">
+                        <h6 class="dlab-title mb-0 text-primary"><i class="la la-check-circle"></i> Water Recycling</h6>
+                        <p style="margin-left:20px">Closed-loop systems for water reuse</p>
                     </div>
-                    <div class="dlab-info">
-                        <h4 class="dlab-title">Water Monitoring</h4>
-                        <p>Real-time monitoring of water quality</p>
+                    <div class="dlab-info mb-2">
+                        <h6 class="dlab-title mb-0 text-primary"><i class="la la-check-circle"></i> Water Monitoring</h6>
+                        <p style="margin-left:20px">Real-time monitoring of water quality</p>
                     </div>
                 </div>
             </div>
@@ -154,17 +133,21 @@
 </div>
 
 <!-- Waste Management -->
-<div class="section-full bg-gray content-inner">
+<div class="section-full bg-gray content-inner pt-0">
+        <div class="row">
+        <img src="{{asset('images/banner/waste-management.webp')}}">
+    </div>
     <div class="container">
-        <div class="section-head text-center">
+        <div class="section-head text-center my-2 mt-3">
             <h2 class="title">Waste Management</h2>
-            <p>Our approach to waste reduction and management</p>
+            <p class="p-0">Our approach to waste reduction and management</p>
+            <hr>
         </div>
         <div class="row">
             <div class="col-lg-6 m-b30">
                 <div class="section-head">
                     <h2 class="title">Waste Reduction</h2>
-                    <p>Our waste management strategy focuses on:</p>
+                    <p class="p-0 m-0">Our waste management strategy focuses on:</p>
                     <ul class="list-angle-right">
                         <li>Source reduction and prevention</li>
                         <li>Recycling and reuse</li>
@@ -176,7 +159,7 @@
             <div class="col-lg-6 m-b30">
                 <div class="section-head">
                     <h2 class="title">Environmental Compliance</h2>
-                    <p>We maintain strict compliance with:</p>
+                    <p class="p-0 m-0">We maintain strict compliance with:</p>
                     <ul class="list-angle-right">
                         <li>Environmental regulations</li>
                         <li>Waste management standards</li>
@@ -192,44 +175,33 @@
 <!-- Biodiversity -->
 <div class="content-inner">
     <div class="container">
-        <div class="section-head text-center">
-            <h2 class="title">Biodiversity Conservation</h2>
-            <p>Protecting and preserving local ecosystems</p>
-        </div>
+        
         <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
+
+            <div class="col-lg-6 col-md-6 m-b30">
+        <div class="section-head mb-1">
+            <h2 class="title mb-0">Biodiversity Conservation</h2>
+            <p class="p-0 mb-0">Protecting and preserving local ecosystems</p>
+            <hr>
+        </div>
                 <div class="dlab-box">
-                    <div class="dlab-media">
-                        <img src="{{ asset('template/images/our-work/oilgas/pic80.jpg') }}" alt="Habitat Protection">
+                    <div class="dlab-info mb-2">
+                        <h6 class="dlab-title mb-0 text-primary"><i class="la la-check-circle"></i> Habitat Protection</h6>
+                        <p style="margin-left:20px">Preserving natural habitats and ecosystems</p>
                     </div>
-                    <div class="dlab-info">
-                        <h4 class="dlab-title">Habitat Protection</h4>
-                        <p>Preserving natural habitats and ecosystems</p>
+                    <div class="dlab-info mb-2">
+                        <h6 class="dlab-title mb-0 text-primary"><i class="la la-check-circle"></i> Species Conservation</h6>
+                        <p style="margin-left:20px">Protecting endangered species and biodiversity</p>
+                    </div>
+                    <div class="dlab-info mb-2">
+                        <h6 class="dlab-title mb-0 text-primary"><i class="la la-check-circle"></i> Environmental Monitoring</h6>
+                        <p style="margin-left:20px">Regular assessment of environmental impact</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
-                <div class="dlab-box">
-                    <div class="dlab-media">
-                        <img src="{{ asset('template/images/our-work/oilgas/pic81.jpg') }}" alt="Species Conservation">
-                    </div>
-                    <div class="dlab-info">
-                        <h4 class="dlab-title">Species Conservation</h4>
-                        <p>Protecting endangered species and biodiversity</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
-                <div class="dlab-box">
-                    <div class="dlab-media">
-                        <img src="{{ asset('template/images/our-work/oilgas/pic82.jpg') }}" alt="Environmental Monitoring">
-                    </div>
-                    <div class="dlab-info">
-                        <h4 class="dlab-title">Environmental Monitoring</h4>
-                        <p>Regular assessment of environmental impact</p>
-                    </div>
-                </div>
-            </div>
+                        <div class="col-lg-6 col-md-6">
+                            <img src="{{ asset('images/banner/conservation.webp') }}" alt="Habitat Protection">
+                        </div>
         </div>
     </div>
 </div>

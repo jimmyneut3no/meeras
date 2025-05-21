@@ -14,7 +14,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 m-b30">
-                <div class="section-head">
+                <div class="section-head mb-0">
                     <h2 class="title">Our Safety Commitment</h2>
                     <p>At Meeras Refinery, safety is our top priority. We maintain the highest standards of health, safety, and security across all our operations. Our comprehensive safety management system ensures the well-being of our employees, contractors, and communities.</p>
                 </div>
@@ -22,10 +22,10 @@
                     <div class="col-sm-6 m-b30">
                         <div class="icon-bx-wraper style-1">
                             <div class="icon-bx">
-                                <span class="icon-cell"><i class="flaticon-factory"></i></span>
+                       <img src="{{asset('/images/mycollection/png/020-security.png')}}" width="50px">   
                             </div>
                             <div class="icon-content">
-                                <h5 class="dlab-tilte">Safety Record</h5>
+                                <h5 class="dlab-tilte mb-0">Safety Record</h5>
                                 <p>Zero Lost Time Injuries</p>
                             </div>
                         </div>
@@ -33,10 +33,10 @@
                     <div class="col-sm-6 m-b30">
                         <div class="icon-bx-wraper style-1">
                             <div class="icon-bx">
-                                <span class="icon-cell"><i class="flaticon-eco-energy"></i></span>
+                       <img src="{{asset('/images/mycollection/png/019-certificate.png')}}" width="50px">   
                             </div>
                             <div class="icon-content">
-                                <h5 class="dlab-tilte">Certifications</h5>
+                                <h5 class="dlab-tilte mb-0">Certifications</h5>
                                 <p>ISO 45001 Certified</p>
                             </div>
                         </div>
@@ -45,7 +45,7 @@
             </div>
             <div class="col-lg-6 m-b30">
                 <div class="dlab-media">
-                    <img src="{{ asset('template/images/our-work/oilgas/pic83.jpg') }}" alt="Safety Commitment">
+                    <img src="{{ asset('images/banner/risk.webp') }}" alt="Safety Commitment">
                 </div>
             </div>
         </div>
@@ -62,9 +62,7 @@
         <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
                 <div class="dlab-box">
-                    <div class="dlab-media">
-                        <img src="{{ asset('template/images/our-work/oilgas/pic84.jpg') }}" alt="Risk Assessment">
-                    </div>
+                       <img src="{{asset('/images/mycollection/png/010-risk-management.png')}}" width="50px">   
                     <div class="dlab-info">
                         <h4 class="dlab-title">Risk Assessment</h4>
                         <p>Comprehensive risk identification and management processes to prevent incidents and ensure safe operations.</p>
@@ -73,9 +71,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
                 <div class="dlab-box">
-                    <div class="dlab-media">
-                        <img src="{{ asset('template/images/our-work/oilgas/pic85.jpg') }}" alt="Training">
-                    </div>
+                       <img src="{{asset('/images/mycollection/png/001-training.png')}}" width="50px">   
                     <div class="dlab-info">
                         <h4 class="dlab-title">Safety Training</h4>
                         <p>Regular training programs for employees and contractors on safety procedures and emergency response.</p>
@@ -84,9 +80,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
                 <div class="dlab-box">
-                    <div class="dlab-media">
-                        <img src="{{ asset('template/images/our-work/oilgas/pic86.jpg') }}" alt="Monitoring">
-                    </div>
+                       <img src="{{asset('/images/mycollection/png/025-security-1.png')}}" width="50px">   
                     <div class="dlab-info">
                         <h4 class="dlab-title">Safety Monitoring</h4>
                         <p>Continuous monitoring and auditing of safety performance and compliance with standards.</p>
@@ -100,71 +94,57 @@
 <!-- Health & Wellness -->
 <div class="content-inner">
     <div class="container">
-        <div class="section-head text-center">
-            <h2 class="title">Health & Wellness</h2>
-            <p>Promoting employee health and well-being</p>
-        </div>
+        
         <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-6 m-b30">
+            
+            <div class="col-lg-6 col-md-6">
+                <div class="section-head mb-1">
+                            <h2 class="title mb-0">Health & Wellness</h2>
+                    <p class="p-0 mb-0">Promoting employee health and well-being</p>
+                    <hr class="my-2">
+                </div>
                 <div class="dlab-box">
-                    <div class="dlab-media">
-                        <img src="{{ asset('template/images/our-work/oilgas/pic87.jpg') }}" alt="Health Programs">
+                    <div class="dlab-info mb-2">
+                        <h6 class="dlab-title mb-0 text-primary"><i class="la la-check-circle"></i> Health Programs</h6>
+                        <p style="margin-left:20px">Comprehensive health and wellness initiatives</p>
                     </div>
-                    <div class="dlab-info">
-                        <h4 class="dlab-title">Health Programs</h4>
-                        <p>Comprehensive health and wellness initiatives</p>
+                    <div class="dlab-info mb-2">
+                        <h6 class="dlab-title mb-0 text-primary"><i class="la la-check-circle"></i> Medical Support</h6>
+                        <p style="margin-left:20px">On-site medical facilities and emergency care</p>
+                    </div>
+                    <div class="dlab-info mb-2">
+                        <h6 class="dlab-title mb-0 text-primary"><i class="la la-check-circle"></i> Mental Health</h6>
+                        <p style="margin-left:20px">Employee assistance and counseling services</p>
+                    </div>
+                    <div class="dlab-info mb-2">
+                        <h6 class="dlab-title mb-0 text-primary"><i class="la la-check-circle"></i> Wellness</h6>
+                        <p style="margin-left:20px">Work-life balance and stress management</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 m-b30">
-                <div class="dlab-box">
-                    <div class="dlab-media">
-                        <img src="{{ asset('template/images/our-work/oilgas/pic88.jpg') }}" alt="Medical Support">
-                    </div>
-                    <div class="dlab-info">
-                        <h4 class="dlab-title">Medical Support</h4>
-                        <p>On-site medical facilities and emergency care</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 m-b30">
-                <div class="dlab-box">
-                    <div class="dlab-media">
-                        <img src="{{ asset('template/images/our-work/oilgas/pic89.jpg') }}" alt="Mental Health">
-                    </div>
-                    <div class="dlab-info">
-                        <h4 class="dlab-title">Mental Health</h4>
-                        <p>Employee assistance and counseling services</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 m-b30">
-                <div class="dlab-box">
-                    <div class="dlab-media">
-                        <img src="{{ asset('template/images/our-work/oilgas/pic90.jpg') }}" alt="Wellness">
-                    </div>
-                    <div class="dlab-info">
-                        <h4 class="dlab-title">Wellness</h4>
-                        <p>Work-life balance and stress management</p>
-                    </div>
-                </div>
+            <div class="col-lg-6 col-md-6">
+                        <img src="{{ asset('images/banner/health.webp') }}" alt="Health Programs">
             </div>
         </div>
     </div>
 </div>
 
 <!-- Emergency Response -->
-<div class="section-full bg-gray content-inner">
+<div class="section-full bg-gray content-inner py-0">
+                <div class="row">
+                        <img src="{{ asset('images/banner/responses.webp') }}" alt="Incident Prevention">
+                    </div>
     <div class="container">
-        <div class="section-head text-center">
-            <h2 class="title">Emergency Response</h2>
-            <p>Prepared for any situation</p>
+        <div class="section-head text-center mb-2">
+            <h2 class="title mt-2">Emergency Response</h2>
+            <p class="mt-0 pt-0">Prepared for any situation</p>
+            <hr>
         </div>
         <div class="row">
             <div class="col-lg-6 m-b30">
-                <div class="section-head">
+                <div class="section-head p-0">
                     <h2 class="title">Emergency Preparedness</h2>
-                    <p>Our emergency response system includes:</p>
+                    <p class="mb-1">Our emergency response system includes:</p>
                     <ul class="list-angle-right">
                         <li>24/7 emergency response teams</li>
                         <li>Regular emergency drills</li>
@@ -174,9 +154,9 @@
                 </div>
             </div>
             <div class="col-lg-6 m-b30">
-                <div class="section-head">
+                <div class="section-head p-0">
                     <h2 class="title">Security Measures</h2>
-                    <p>We maintain robust security through:</p>
+                    <p class="mb-1">We maintain robust security through:</p>
                     <ul class="list-angle-right">
                         <li>Access control systems</li>
                         <li>Surveillance monitoring</li>
@@ -192,41 +172,29 @@
 <!-- Safety Performance -->
 <div class="content-inner">
     <div class="container">
-        <div class="section-head text-center">
-            <h2 class="title">Safety Performance</h2>
-            <p>Our commitment to continuous improvement</p>
-        </div>
+
         <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
+            <div class="col-lg-6 col-md-6">
+                        <img src="{{ asset('images/banner/lectures.webp') }}" alt="Incident Prevention">
+                    </div>
+            <div class="col-lg-6 col-md-6 m-b30">
+              <div class="section-head mb-1">
+                            <h2 class="title mb-0">Safety Performance</h2>
+            <p class="p-0 mb-0">Our commitment to continuous improvement</p>
+            <hr>
+        </div>
                 <div class="dlab-box">
-                    <div class="dlab-media">
-                        <img src="{{ asset('template/images/our-work/oilgas/pic91.jpg') }}" alt="Incident Prevention">
+                    <div class="dlab-info mb-2">
+                        <h6 class="dlab-title mb-0 text-primary"><i class="la la-check-circle"></i> Incident Prevention</h6>
+                        <p style="margin-left:20px">Proactive measures to prevent accidents</p>
                     </div>
-                    <div class="dlab-info">
-                        <h4 class="dlab-title">Incident Prevention</h4>
-                        <p>Proactive measures to prevent accidents</p>
+                    <div class="dlab-info mb-2">
+                        <h6 class="dlab-title mb-0 text-primary"><i class="la la-check-circle"></i> Safety Culture</h6>
+                        <p style="margin-left:20px">Building a strong safety-first mindset</p>
                     </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
-                <div class="dlab-box">
-                    <div class="dlab-media">
-                        <img src="{{ asset('template/images/our-work/oilgas/pic92.jpg') }}" alt="Safety Culture">
-                    </div>
-                    <div class="dlab-info">
-                        <h4 class="dlab-title">Safety Culture</h4>
-                        <p>Building a strong safety-first mindset</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
-                <div class="dlab-box">
-                    <div class="dlab-media">
-                        <img src="{{ asset('template/images/our-work/oilgas/pic93.jpg') }}" alt="Performance Metrics">
-                    </div>
-                    <div class="dlab-info">
-                        <h4 class="dlab-title">Performance Metrics</h4>
-                        <p>Tracking and improving safety indicators</p>
+                    <div class="dlab-info mb-2">
+                        <h6 class="dlab-title mb-0 text-primary"><i class="la la-check-circle"></i> Performance Metrics</h6>
+                       <p style="margin-left:20px">Tracking and improving safety indicators</p>
                     </div>
                 </div>
             </div>

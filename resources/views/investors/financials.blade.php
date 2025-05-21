@@ -22,7 +22,7 @@
                     <div class="col-sm-6 m-b30">
                         <div class="icon-bx-wraper style-1">
                             <div class="icon-bx">
-                                <span class="icon-cell"><i class="flaticon-factory"></i></span>
+                       <img src="{{asset('/images/mycollection/png/026-money.png')}}" width="50px">   
                             </div>
                             <div class="icon-content">
                                 <h5 class="dlab-tilte">Revenue</h5>
@@ -33,7 +33,7 @@
                     <div class="col-sm-6 m-b30">
                         <div class="icon-bx-wraper style-1">
                             <div class="icon-bx">
-                                <span class="icon-cell"><i class="flaticon-eco-energy"></i></span>
+                       <img src="{{asset('/images/mycollection/png/027-arrows.png')}}" width="50px">   
                             </div>
                             <div class="icon-content">
                                 <h5 class="dlab-tilte">EBITDA</h5>
@@ -62,9 +62,7 @@
         <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
                 <div class="dlab-box">
-                    <div class="dlab-media">
-                        <img src="{{ asset('template/images/our-work/oilgas/pic109.jpg') }}" alt="Revenue Growth">
-                    </div>
+                       <img src="{{asset('/images/mycollection/png/022-financial-growth.png')}}" width="50px">   
                     <div class="dlab-info">
                         <h4 class="dlab-title">Revenue Growth</h4>
                         <p>Consistent year-over-year growth in revenue through operational excellence and market expansion.</p>
@@ -78,9 +76,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
                 <div class="dlab-box">
-                    <div class="dlab-media">
-                        <img src="{{ asset('template/images/our-work/oilgas/pic110.jpg') }}" alt="Profitability">
-                    </div>
+                       <img src="{{asset('/images/mycollection/png/026-money.png')}}" width="50px">   
                     <div class="dlab-info">
                         <h4 class="dlab-title">Profitability</h4>
                         <p>Strong profit margins and efficient cost management.</p>
@@ -94,9 +90,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
                 <div class="dlab-box">
-                    <div class="dlab-media">
-                        <img src="{{ asset('template/images/our-work/oilgas/pic111.jpg') }}" alt="Cash Flow">
-                    </div>
+                       <img src="{{asset('/images/mycollection/png/028-return-on-investment.png')}}" width="50px">   
                     <div class="dlab-info">
                         <h4 class="dlab-title">Cash Flow</h4>
                         <p>Strong operating cash flow generation and efficient capital allocation.</p>

@@ -22,7 +22,7 @@
                     <div class="col-sm-6 m-b30">
                         <div class="icon-bx-wraper style-1">
                             <div class="icon-bx">
-                                <span class="icon-cell"><i class="flaticon-factory"></i></span>
+                       <img src="{{asset('/images/mycollection/png/001-press-release.png')}}" width="50px">   
                             </div>
                             <div class="icon-content">
                                 <h5 class="dlab-tilte">Press Releases</h5>
@@ -33,7 +33,7 @@
                     <div class="col-sm-6 m-b30">
                         <div class="icon-bx-wraper style-1">
                             <div class="icon-bx">
-                                <span class="icon-cell"><i class="flaticon-eco-energy"></i></span>
+                       <img src="{{asset('/images/mycollection/png/004-multimedia.png')}}" width="50px">   
                             </div>
                             <div class="icon-content">
                                 <h5 class="dlab-tilte">Media Resources</h5>
@@ -45,7 +45,7 @@
             </div>
             <div class="col-lg-6 m-b30">
                 <div class="dlab-media">
-                    <img src="{{ asset('template/images/our-work/oilgas/pic180.jpg') }}" alt="Press Center">
+                    <img src="{{ asset('images/banner/press.webp') }}" alt="Press Center">
                 </div>
             </div>
         </div>

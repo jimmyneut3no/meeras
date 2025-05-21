@@ -116,7 +116,6 @@
                                 <ul class="sub-menu">
                                     <li><a href="{{ route('careers.opportunities') }}">Opportunities</a></li>
                                     <li><a href="{{ route('careers.culture') }}">Culture</a></li>
-                                    <li><a href="{{ route('careers.benefits') }}">Benefits</a></li>
                                 </ul>
                             </li>
                         </ul>

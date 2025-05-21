@@ -22,7 +22,7 @@
                     <div class="col-sm-6 m-b30">
                         <div class="icon-bx-wraper style-1">
                             <div class="icon-bx">
-                                <span class="icon-cell"><i class="flaticon-factory"></i></span>
+                       <img src="{{asset('/images/mycollection/png/024-seo.png')}}" width="50px">   
                             </div>
                             <div class="icon-content">
                                 <h5 class="dlab-tilte">Earnings Calls</h5>
@@ -33,7 +33,7 @@
                     <div class="col-sm-6 m-b30">
                         <div class="icon-bx-wraper style-1">
                             <div class="icon-bx">
-                                <span class="icon-cell"><i class="flaticon-eco-energy"></i></span>
+                       <img src="{{asset('/images/mycollection/png/032-webcast.png')}}" width="50px">   
                             </div>
                             <div class="icon-content">
                                 <h5 class="dlab-tilte">Webcasts</h5>

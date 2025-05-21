@@ -311,7 +311,7 @@ h3 {
 h4 {
     font-size: 22px;
     line-height: 28px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 h5 {
     font-size: 18px;
@@ -331,7 +331,7 @@ h6 {
 
 p {
     line-height: 28px;
-    margin-bottom: 24px;
+    margin-bottom: 10px;
 }
 strong {
     font-weight: 400;

@@ -71,7 +71,7 @@ Route::prefix('sustainability')->name('sustainability.')->group(function () {
 // Investors Routes
 Route::prefix('investors')->name('investors.')->group(function () {
     Route::get('/', function () {
-        return view('investors.index');
+        return view('investors.financials');
     })->name('index');
     
     Route::get('/financials', function () {
@@ -119,8 +119,4 @@ Route::prefix('careers')->name('careers.')->group(function () {
     Route::get('/culture', function () {
         return view('careers.culture');
     })->name('culture');
-    
-    Route::get('/benefits', function () {
-        return view('careers.benefits');
-    })->name('benefits');
 });
